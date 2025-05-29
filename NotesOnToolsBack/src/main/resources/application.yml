@@ -1,0 +1,32 @@
+server:
+  address: 0.0.0.0
+  port: 8080
+
+spring:
+  application:
+    name: Server
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/notesontools
+    username: root
+    password: zxcv147258369GL
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: localhost
+    port: 6379
+    password: zxcv147258369
+    timeout: 5000
+    database: 0
+  mail:
+    host: smtp.qq.com
+    port: 465
+    username: 2301951542@qq.com
+    password: jvhumdabyoqgebic
+    protocol: smtps
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
